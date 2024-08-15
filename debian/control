@@ -9,7 +9,6 @@ Vcs-Git: https://git.launchpad.net/livecd-rootfs -b ubuntu/master
 Package: livecd-rootfs
 Architecture: any
 Depends: ${misc:Depends},
-         curl
          apt-utils,
          attr,
          debootstrap,
